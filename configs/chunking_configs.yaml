@@ -1,0 +1,38 @@
+# Boundary-aware chunking configs for RAG evaluation.
+# Each entry is one (chunk_size_tokens, overlap_tokens) configuration.
+# Output: data/chunks/<config_name>/<doc_id>.json
+
+- chunk_size_tokens: 256
+  overlap_tokens: 50
+  min_chunk_tokens: 50
+  max_sentence_tokens: 256
+  preserve_sections: true
+  name: "recursive_t256_o50"
+
+- chunk_size_tokens: 512
+  overlap_tokens: 100
+  min_chunk_tokens: 50
+  max_sentence_tokens: 256
+  preserve_sections: true
+  name: "recursive_t512_o100"
+
+- chunk_size_tokens: 1024
+  overlap_tokens: 128
+  min_chunk_tokens: 50
+  max_sentence_tokens: 256
+  preserve_sections: true
+  name: "recursive_t1024_o128"
+
+- chunk_size_tokens: 1024
+  overlap_tokens: 256
+  min_chunk_tokens: 50
+  max_sentence_tokens: 256
+  preserve_sections: true
+  name: "recursive_t1024_o256"
+
+- chunk_size_tokens: 1024
+  overlap_tokens: 64
+  min_chunk_tokens: 50
+  max_sentence_tokens: 256
+  preserve_sections: true
+  name: "recursive_t1024_o64"

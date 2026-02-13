@@ -1,0 +1,12 @@
+{
+  "n_questions": 119,
+  "recall@1": 0.31092436974789917,
+  "precision@1": 0.31092436974789917,
+  "recall@5": 0.6134453781512605,
+  "precision@5": 0.12268907563025193,
+  "recall@10": 0.773109243697479,
+  "precision@10": 0.07731092436974776,
+  "mrr": 0.44144324396425244,
+  "config": "recursive_t1024_o128",
+  "embedding_model": "text-embedding-3-small"
+}

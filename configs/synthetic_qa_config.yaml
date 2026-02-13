@@ -1,0 +1,10 @@
+# Synthetic QA generation config (optional; CLI args override).
+# Used for retrieval evaluation only; no answer generation.
+
+questions_per_chunk_min: 2
+questions_per_chunk_max: 3
+batch_size: 5          # Chunks per LLM call (fewer calls = lower cost)
+max_chunks: null       # Cap for testing (e.g. 50); null = all
+multi_hop_ratio: 0.1
+similarity_threshold: 0.5
+max_related_chunks: 2

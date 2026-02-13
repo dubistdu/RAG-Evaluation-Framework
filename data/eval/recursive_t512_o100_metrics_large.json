@@ -1,0 +1,12 @@
+{
+  "n_questions": 100,
+  "recall@1": 0.26,
+  "precision@1": 0.26,
+  "recall@5": 0.6,
+  "precision@5": 0.1199999999999999,
+  "recall@10": 0.72,
+  "precision@10": 0.0719999999999999,
+  "mrr": 0.3929007936507937,
+  "config": "recursive_t512_o100",
+  "embedding_model": "text-embedding-3-large"
+}

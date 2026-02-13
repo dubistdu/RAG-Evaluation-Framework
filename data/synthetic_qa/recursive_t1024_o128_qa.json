@@ -1,0 +1,1192 @@
+[
+  {
+    "question_id": "q_018e52215c4d",
+    "question": "What was the total amount of commercial real estate first-mortgage commitments closed by ACRES in 2022?",
+    "gold_chunk_ids": [
+      "commercial_realty_recursive_t1024_o128_0"
+    ],
+    "question_type": "factual",
+    "difficulty": "medium",
+    "source_config": "recursive_t1024_o128"
+  },
+  {
+    "question_id": "q_5bcf5468f05d",
+    "question": "What percentage of the loan portfolio was performing in line or near underwritten expectations as of December 31, 2022?",
+    "gold_chunk_ids": [
+      "commercial_realty_recursive_t1024_o128_0"
+    ],
+    "question_type": "factual",
+    "difficulty": "medium",
+    "source_config": "recursive_t1024_o128"
+  },
+  {
+    "question_id": "q_8c6c4490ab1f",
+    "question": "What was the average price at which common stock was repurchased by ACRES?",
+    "gold_chunk_ids": [
+      "commercial_realty_recursive_t1024_o128_1"
+    ],
+    "question_type": "factual",
+    "difficulty": "medium",
+    "source_config": "recursive_t1024_o128"
+  },
+  {
+    "question_id": "q_abd75d33cbb8",
+    "question": "What is the name of the initiative launched by ACRES to support environmental causes?",
+    "gold_chunk_ids": [
+      "commercial_realty_recursive_t1024_o128_1"
+    ],
+    "question_type": "factual",
+    "difficulty": "medium",
+    "source_config": "recursive_t1024_o128"
+  },
+  {
+    "question_id": "q_7ceeb9b719c5",
+    "question": "What is the commission file number for ACRES Commercial Realty Corp.'s Form 10-K?",
+    "gold_chunk_ids": [
+      "commercial_realty_recursive_t1024_o128_2"
+    ],
+    "question_type": "factual",
+    "difficulty": "medium",
+    "source_config": "recursive_t1024_o128"
+  },
+  {
+    "question_id": "q_4f77ab7f4178",
+    "question": "What is the address of ACRES Commercial Realty Corp.'s principal executive offices?",
+    "gold_chunk_ids": [
+      "commercial_realty_recursive_t1024_o128_2"
+    ],
+    "question_type": "factual",
+    "difficulty": "medium",
+    "source_config": "recursive_t1024_o128"
+  },
+  {
+    "question_id": "q_a39a520d7e7b",
+    "question": "What does the term \"forward-looking statements\" refer to in the context of this report?",
+    "gold_chunk_ids": [
+      "commercial_realty_recursive_t1024_o128_3"
+    ],
+    "question_type": "factual",
+    "difficulty": "medium",
+    "source_config": "recursive_t1024_o128"
+  },
+  {
+    "question_id": "q_733d37bfb4f2",
+    "question": "Who is referred to as the \"Manager\" of ACRES Commercial Realty Corp.?",
+    "gold_chunk_ids": [
+      "commercial_realty_recursive_t1024_o128_3"
+    ],
+    "question_type": "factual",
+    "difficulty": "medium",
+    "source_config": "recursive_t1024_o128"
+  },
+  {
+    "question_id": "q_e53f00167110",
+    "question": "What is the primary focus of ACRES Commercial Realty Corp. as a real estate finance company?",
+    "gold_chunk_ids": [
+      "commercial_realty_recursive_t1024_o128_4"
+    ],
+    "question_type": "factual",
+    "difficulty": "medium",
+    "source_config": "recursive_t1024_o128"
+  },
+  {
+    "question_id": "q_824c0a43de81",
+    "question": "In what year did ACRES change its name from Exantas Capital Corp. to ACRES Commercial Realty Corp.?",
+    "gold_chunk_ids": [
+      "commercial_realty_recursive_t1024_o128_4"
+    ],
+    "question_type": "factual",
+    "difficulty": "medium",
+    "source_config": "recursive_t1024_o128"
+  },
+  {
+    "question_id": "q_4d4db8b459c2",
+    "question": "What were the NOL carryforwards reported by ACRES in its 2020 tax return?",
+    "gold_chunk_ids": [
+      "commercial_realty_recursive_t1024_o128_5"
+    ],
+    "question_type": "factual",
+    "difficulty": "medium",
+    "source_config": "recursive_t1024_o128"
+  },
+  {
+    "question_id": "q_c58a073bf323",
+    "question": "What is the typical range for the size of transitional floating-rate CRE loans targeted by ACRES?",
+    "gold_chunk_ids": [
+      "commercial_realty_recursive_t1024_o128_5"
+    ],
+    "question_type": "factual",
+    "difficulty": "medium",
+    "source_config": "recursive_t1024_o128"
+  },
+  {
+    "question_id": "q_cb1e991b54b8",
+    "question": "What type of financing facility is associated with Massachusetts Mutual Life Insurance Company?",
+    "gold_chunk_ids": [
+      "commercial_realty_recursive_t1024_o128_6"
+    ],
+    "question_type": "factual",
+    "difficulty": "medium",
+    "source_config": "recursive_t1024_o128"
+  },
+  {
+    "question_id": "q_d8715b4e73da",
+    "question": "What was the total outstanding borrowings amount reported at December 31, 2022?",
+    "gold_chunk_ids": [
+      "commercial_realty_recursive_t1024_o128_6"
+    ],
+    "question_type": "factual",
+    "difficulty": "medium",
+    "source_config": "recursive_t1024_o128"
+  },
+  {
+    "question_id": "q_e546ecc0d5d4",
+    "question": "What is the primary risk associated with ACRES's investments in floating-rate assets?",
+    "gold_chunk_ids": [
+      "commercial_realty_recursive_t1024_o128_7"
+    ],
+    "question_type": "factual",
+    "difficulty": "medium",
+    "source_config": "recursive_t1024_o128"
+  },
+  {
+    "question_id": "q_01d730ce28b0",
+    "question": "How does ACRES partially mitigate the risk of interest rate fluctuations for its borrowers?",
+    "gold_chunk_ids": [
+      "commercial_realty_recursive_t1024_o128_7"
+    ],
+    "question_type": "analytical",
+    "difficulty": "medium",
+    "source_config": "recursive_t1024_o128"
+  },
+  {
+    "question_id": "q_1dcf6d91cbc6",
+    "question": "What was the net carrying amount of ACRES's total investment portfolio at December 31, 2022?",
+    "gold_chunk_ids": [
+      "commercial_realty_recursive_t1024_o128_8"
+    ],
+    "question_type": "factual",
+    "difficulty": "medium",
+    "source_config": "recursive_t1024_o128"
+  },
+  {
+    "question_id": "q_940fd2e2a200",
+    "question": "What percentage of the portfolio is represented by loans held for investment?",
+    "gold_chunk_ids": [
+      "commercial_realty_recursive_t1024_o128_8"
+    ],
+    "question_type": "factual",
+    "difficulty": "medium",
+    "source_config": "recursive_t1024_o128"
+  },
+  {
+    "question_id": "q_4c3236d2dc98",
+    "question": "What are B-notes in the context of ACRES's investment strategy?",
+    "gold_chunk_ids": [
+      "commercial_realty_recursive_t1024_o128_9"
+    ],
+    "question_type": "factual",
+    "difficulty": "medium",
+    "source_config": "recursive_t1024_o128"
+  },
+  {
+    "question_id": "q_6d77b028e1c0",
+    "question": "What is the expected loan-to-collateral value (LTV) ratio for typical A-note investments?",
+    "gold_chunk_ids": [
+      "commercial_realty_recursive_t1024_o128_9"
+    ],
+    "question_type": "factual",
+    "difficulty": "medium",
+    "source_config": "recursive_t1024_o128"
+  },
+  {
+    "question_id": "q_a56486b06379",
+    "question": "What is the expected LTV ratio range for investments?",
+    "gold_chunk_ids": [
+      "commercial_realty_recursive_t1024_o128_10"
+    ],
+    "question_type": "factual",
+    "difficulty": "easy",
+    "source_config": "recursive_t1024_o128"
+  },
+  {
+    "question_id": "q_aa243b586793",
+    "question": "What percentage of the total CRE loan portfolio was constituted by the Southwest region at December 31, 2022?",
+    "gold_chunk_ids": [
+      "commercial_realty_recursive_t1024_o128_10"
+    ],
+    "question_type": "factual",
+    "difficulty": "medium",
+    "source_config": "recursive_t1024_o128"
+  },
+  {
+    "question_id": "q_48b16838bbee",
+    "question": "What types of properties comprised 95.6% of the collateral in the Southwest region?",
+    "gold_chunk_ids": [
+      "commercial_realty_recursive_t1024_o128_10"
+    ],
+    "question_type": "factual",
+    "difficulty": "medium",
+    "source_config": "recursive_t1024_o128"
+  },
+  {
+    "question_id": "q_837c182f5fee",
+    "question": "What is the total carrying value of investments in real estate at December 31, 2022?",
+    "gold_chunk_ids": [
+      "commercial_realty_recursive_t1024_o128_11"
+    ],
+    "question_type": "factual",
+    "difficulty": "medium",
+    "source_config": "recursive_t1024_o128"
+  },
+  {
+    "question_id": "q_f174e93cc582",
+    "question": "What type of assets does the right of use associated with an acquired ground lease represent?",
+    "gold_chunk_ids": [
+      "commercial_realty_recursive_t1024_o128_11"
+    ],
+    "question_type": "factual",
+    "difficulty": "medium",
+    "source_config": "recursive_t1024_o128"
+  },
+  {
+    "question_id": "q_6424fdd47592",
+    "question": "How many investments in real estate were classified as held for sale at December 31, 2022?",
+    "gold_chunk_ids": [
+      "commercial_realty_recursive_t1024_o128_11"
+    ],
+    "question_type": "factual",
+    "difficulty": "medium",
+    "source_config": "recursive_t1024_o128"
+  },
+  {
+    "question_id": "q_e7ae602acf4c",
+    "question": "What is the management agreement's requirement for the Manager regarding the management of business affairs?",
+    "gold_chunk_ids": [
+      "commercial_realty_recursive_t1024_o128_12"
+    ],
+    "question_type": "factual",
+    "difficulty": "medium",
+    "source_config": "recursive_t1024_o128"
+  },
+  {
+    "question_id": "q_8b3114fec6cb",
+    "question": "What percentage of the amount by which EAD exceeds a certain product is used to calculate incentive compensation?",
+    "gold_chunk_ids": [
+      "commercial_realty_recursive_t1024_o128_12"
+    ],
+    "question_type": "factual",
+    "difficulty": "medium",
+    "source_config": "recursive_t1024_o128"
+  },
+  {
+    "question_id": "q_81d7c18e3abc",
+    "question": "What is the minimum monthly base management fee as per the Management Agreement?",
+    "gold_chunk_ids": [
+      "commercial_realty_recursive_t1024_o128_12"
+    ],
+    "question_type": "factual",
+    "difficulty": "medium",
+    "source_config": "recursive_t1024_o128"
+  },
+  {
+    "question_id": "q_ae086e7d8045",
+    "question": "What is the current contract term end date for the Management Agreement?",
+    "gold_chunk_ids": [
+      "commercial_realty_recursive_t1024_o128_13"
+    ],
+    "question_type": "factual",
+    "difficulty": "medium",
+    "source_config": "recursive_t1024_o128"
+  },
+  {
+    "question_id": "q_c9a22ab92896",
+    "question": "What happens if the Management Agreement is terminated for cause?",
+    "gold_chunk_ids": [
+      "commercial_realty_recursive_t1024_o128_13"
+    ],
+    "question_type": "factual",
+    "difficulty": "medium",
+    "source_config": "recursive_t1024_o128"
+  },
+  {
+    "question_id": "q_c9415faf8988",
+    "question": "What constitutes \"cause\" for termination of the Management Agreement?",
+    "gold_chunk_ids": [
+      "commercial_realty_recursive_t1024_o128_13"
+    ],
+    "question_type": "factual",
+    "difficulty": "medium",
+    "source_config": "recursive_t1024_o128"
+  },
+  {
+    "question_id": "q_23811fd104e8",
+    "question": "What percentage of ACRES RF’s assets must consist of Qualifying Interests to qualify for exclusion from regulation under the Investment Company Act?",
+    "gold_chunk_ids": [
+      "commercial_realty_recursive_t1024_o128_14"
+    ],
+    "question_type": "factual",
+    "difficulty": "medium",
+    "source_config": "recursive_t1024_o128"
+  },
+  {
+    "question_id": "q_55794a45d836",
+    "question": "What type of loans does ACRES RF treat as Qualifying Interests?",
+    "gold_chunk_ids": [
+      "commercial_realty_recursive_t1024_o128_14"
+    ],
+    "question_type": "factual",
+    "difficulty": "medium",
+    "source_config": "recursive_t1024_o128"
+  },
+  {
+    "question_id": "q_5a44f7e3730f",
+    "question": "What is the consequence if SEC staff provides guidance that certain investments are not Qualifying Interests?",
+    "gold_chunk_ids": [
+      "commercial_realty_recursive_t1024_o128_14"
+    ],
+    "question_type": "factual",
+    "difficulty": "medium",
+    "source_config": "recursive_t1024_o128"
+  },
+  {
+    "question_id": "q_4c68bd1c5451",
+    "question": "What are the exclusions from the definition of \"investment securities\" under the Investment Company Act?",
+    "gold_chunk_ids": [
+      "commercial_realty_recursive_t1024_o128_15"
+    ],
+    "question_type": "definition",
+    "difficulty": "medium",
+    "source_config": "recursive_t1024_o128"
+  },
+  {
+    "question_id": "q_acb4d1931794",
+    "question": "Which subsidiaries of ACRES RF do not qualify for the Section 3(c)(5)(C) exclusion?",
+    "gold_chunk_ids": [
+      "commercial_realty_recursive_t1024_o128_15"
+    ],
+    "question_type": "factual",
+    "difficulty": "medium",
+    "source_config": "recursive_t1024_o128"
+  },
+  {
+    "question_id": "q_e228f61c1ed6",
+    "question": "What must ACRES Commercial Realty Corp. monitor to ensure it qualifies for an exclusion from regulation under the Investment Company Act?",
+    "gold_chunk_ids": [
+      "commercial_realty_recursive_t1024_o128_15"
+    ],
+    "question_type": "factual",
+    "difficulty": "medium",
+    "source_config": "recursive_t1024_o128"
+  },
+  {
+    "question_id": "q_f93c9e1aedf8",
+    "question": "What does the site contain that is available on the SEC’s website?",
+    "gold_chunk_ids": [
+      "commercial_realty_recursive_t1024_o128_16"
+    ],
+    "question_type": "factual",
+    "difficulty": "medium",
+    "source_config": "recursive_t1024_o128"
+  },
+  {
+    "question_id": "q_7d9c3b237c1b",
+    "question": "What are some of the risks discussed in the risk factors summary?",
+    "gold_chunk_ids": [
+      "commercial_realty_recursive_t1024_o128_16"
+    ],
+    "question_type": "factual",
+    "difficulty": "medium",
+    "source_config": "recursive_t1024_o128"
+  },
+  {
+    "question_id": "q_c6769e574f57",
+    "question": "What could limit the profitability and ability to make distributions if current economic conditions deteriorate?",
+    "gold_chunk_ids": [
+      "commercial_realty_recursive_t1024_o128_16"
+    ],
+    "question_type": "factual",
+    "difficulty": "medium",
+    "source_config": "recursive_t1024_o128"
+  },
+  {
+    "question_id": "q_d9d954632a6c",
+    "question": "What impact could increases in interest rates have on the value of investments?",
+    "gold_chunk_ids": [
+      "commercial_realty_recursive_t1024_o128_17"
+    ],
+    "question_type": "factual",
+    "difficulty": "medium",
+    "source_config": "recursive_t1024_o128"
+  },
+  {
+    "question_id": "q_1cd059a3e0ec",
+    "question": "What are some risks associated with the investments in real estate and commercial mortgage loans?",
+    "gold_chunk_ids": [
+      "commercial_realty_recursive_t1024_o128_17"
+    ],
+    "question_type": "factual",
+    "difficulty": "medium",
+    "source_config": "recursive_t1024_o128"
+  },
+  {
+    "question_id": "q_c22aac0de0ba",
+    "question": "What may happen if the allowance for credit losses is not adequate?",
+    "gold_chunk_ids": [
+      "commercial_realty_recursive_t1024_o128_17"
+    ],
+    "question_type": "factual",
+    "difficulty": "medium",
+    "source_config": "recursive_t1024_o128"
+  },
+  {
+    "question_id": "q_a2b4f8e31db0",
+    "question": "What could happen if ACRES loses its exclusion from regulation under the Investment Company Act?",
+    "gold_chunk_ids": [
+      "commercial_realty_recursive_t1024_o128_18"
+    ],
+    "question_type": "factual",
+    "difficulty": "medium",
+    "source_config": "recursive_t1024_o128"
+  },
+  {
+    "question_id": "q_336f35f8cd9b",
+    "question": "How does the outbreak of COVID-19 affect the ability to make distributions?",
+    "gold_chunk_ids": [
+      "commercial_realty_recursive_t1024_o128_18"
+    ],
+    "question_type": "analytical",
+    "difficulty": "medium",
+    "source_config": "recursive_t1024_o128"
+  },
+  {
+    "question_id": "q_294136bae93a",
+    "question": "What must ACRES do to comply with REIT qualification requirements regarding distributions?",
+    "gold_chunk_ids": [
+      "commercial_realty_recursive_t1024_o128_18"
+    ],
+    "question_type": "factual",
+    "difficulty": "medium",
+    "source_config": "recursive_t1024_o128"
+  },
+  {
+    "question_id": "q_c8239ff36cc3",
+    "question": "What effect has the COVID-19 pandemic had on the market pricing of CRE securities?",
+    "gold_chunk_ids": [
+      "commercial_realty_recursive_t1024_o128_19"
+    ],
+    "question_type": "factual",
+    "difficulty": "medium",
+    "source_config": "recursive_t1024_o128"
+  },
+  {
+    "question_id": "q_e707b2ecf182",
+    "question": "What challenges does ACRES face in meeting lender requirements during the pandemic?",
+    "gold_chunk_ids": [
+      "commercial_realty_recursive_t1024_o128_19"
+    ],
+    "question_type": "factual",
+    "difficulty": "medium",
+    "source_config": "recursive_t1024_o128"
+  },
+  {
+    "question_id": "q_1c0b00cf49af",
+    "question": "How could the COVID-19 pandemic impact ACRES's liquidity position?",
+    "gold_chunk_ids": [
+      "commercial_realty_recursive_t1024_o128_19"
+    ],
+    "question_type": "factual",
+    "difficulty": "medium",
+    "source_config": "recursive_t1024_o128"
+  },
+  {
+    "question_id": "q_70a799e2b77e",
+    "question": "What risks are associated with the securitizations used to finance loans?",
+    "gold_chunk_ids": [
+      "commercial_realty_recursive_t1024_o128_20"
+    ],
+    "question_type": "factual",
+    "difficulty": "medium",
+    "source_config": "recursive_t1024_o128"
+  },
+  {
+    "question_id": "q_700810e3344c",
+    "question": "How might declining real estate values affect mortgage loan originations?",
+    "gold_chunk_ids": [
+      "commercial_realty_recursive_t1024_o128_20"
+    ],
+    "question_type": "factual",
+    "difficulty": "medium",
+    "source_config": "recursive_t1024_o128"
+  },
+  {
+    "question_id": "q_ab9b277c663e",
+    "question": "What could happen if a default occurs under a short-term credit facility used for CRE debt securitization?",
+    "gold_chunk_ids": [
+      "commercial_realty_recursive_t1024_o128_21"
+    ],
+    "question_type": "factual",
+    "difficulty": "medium",
+    "source_config": "recursive_t1024_o128"
+  },
+  {
+    "question_id": "q_ea9b77a79516",
+    "question": "What are the potential consequences of a counterparty defaulting on a repurchase transaction?",
+    "gold_chunk_ids": [
+      "commercial_realty_recursive_t1024_o128_21"
+    ],
+    "question_type": "factual",
+    "difficulty": "medium",
+    "source_config": "recursive_t1024_o128"
+  },
+  {
+    "question_id": "q_86f5417c5b62",
+    "question": "What might happen if assets do not comply with representations and warranties made during securitization?",
+    "gold_chunk_ids": [
+      "commercial_realty_recursive_t1024_o128_22"
+    ],
+    "question_type": "factual",
+    "difficulty": "medium",
+    "source_config": "recursive_t1024_o128"
+  },
+  {
+    "question_id": "q_3a168e00b8b1",
+    "question": "How could financing REIT qualifying assets with repurchase agreements affect REIT qualification?",
+    "gold_chunk_ids": [
+      "commercial_realty_recursive_t1024_o128_22"
+    ],
+    "question_type": "factual",
+    "difficulty": "medium",
+    "source_config": "recursive_t1024_o128"
+  },
+  {
+    "question_id": "q_ccd9df03316b",
+    "question": "What is the consequence of failing to meet over-collateralization tests in CRE debt securitizations?",
+    "gold_chunk_ids": [
+      "commercial_realty_recursive_t1024_o128_23"
+    ],
+    "question_type": "factual",
+    "difficulty": "medium",
+    "source_config": "recursive_t1024_o128"
+  },
+  {
+    "question_id": "q_e1313b8ec5c3",
+    "question": "How could a failure to satisfy collateralization tests affect cash flow from CRE debt securitizations?",
+    "gold_chunk_ids": [
+      "commercial_realty_recursive_t1024_o128_23"
+    ],
+    "question_type": "factual",
+    "difficulty": "medium",
+    "source_config": "recursive_t1024_o128"
+  },
+  {
+    "question_id": "q_919fb41a3edb",
+    "question": "What risks are associated with accumulating assets for CRE debt securitization through short-term financing?",
+    "gold_chunk_ids": [
+      "commercial_realty_recursive_t1024_o128_24"
+    ],
+    "question_type": "factual",
+    "difficulty": "medium",
+    "source_config": "recursive_t1024_o128"
+  },
+  {
+    "question_id": "q_611b110b7b49",
+    "question": "How might an increase in short-term interest rates affect the returns on assets?",
+    "gold_chunk_ids": [
+      "commercial_realty_recursive_t1024_o128_24"
+    ],
+    "question_type": "factual",
+    "difficulty": "medium",
+    "source_config": "recursive_t1024_o128"
+  },
+  {
+    "question_id": "q_1ae14839dc02",
+    "question": "What is Earnings Available for Distribution (EAD) and why is it used as a performance measure?",
+    "gold_chunk_ids": [
+      "commercial_realty_recursive_t1024_o128_25"
+    ],
+    "question_type": "analytical",
+    "difficulty": "medium",
+    "source_config": "recursive_t1024_o128"
+  },
+  {
+    "question_id": "q_c77de7a68102",
+    "question": "What could happen if a company fails to maintain an effective system of internal controls?",
+    "gold_chunk_ids": [
+      "commercial_realty_recursive_t1024_o128_25"
+    ],
+    "question_type": "factual",
+    "difficulty": "medium",
+    "source_config": "recursive_t1024_o128"
+  },
+  {
+    "question_id": "q_aab9b2cf88ee",
+    "question": "What are the potential consequences of a cybersecurity incident for the business?",
+    "gold_chunk_ids": [
+      "commercial_realty_recursive_t1024_o128_26"
+    ],
+    "question_type": "factual",
+    "difficulty": "medium",
+    "source_config": "recursive_t1024_o128"
+  },
+  {
+    "question_id": "q_350fb7bca4f3",
+    "question": "How does the reliance on third-party information systems increase operational risks?",
+    "gold_chunk_ids": [
+      "commercial_realty_recursive_t1024_o128_26"
+    ],
+    "question_type": "analytical",
+    "difficulty": "medium",
+    "source_config": "recursive_t1024_o128"
+  },
+  {
+    "question_id": "q_d3b1baac0843",
+    "question": "How can a decline in the market value of assets affect the company's financial obligations?",
+    "gold_chunk_ids": [
+      "commercial_realty_recursive_t1024_o128_27"
+    ],
+    "question_type": "factual",
+    "difficulty": "medium",
+    "source_config": "recursive_t1024_o128"
+  },
+  {
+    "question_id": "q_eba122d98460",
+    "question": "What impact could increases in interest rates have on the company's ability to pay distributions?",
+    "gold_chunk_ids": [
+      "commercial_realty_recursive_t1024_o128_27"
+    ],
+    "question_type": "factual",
+    "difficulty": "medium",
+    "source_config": "recursive_t1024_o128"
+  },
+  {
+    "question_id": "q_65200dd901ff",
+    "question": "What risks are associated with investing in mezzanine debt and preferred equity compared to senior secured debt?",
+    "gold_chunk_ids": [
+      "commercial_realty_recursive_t1024_o128_28"
+    ],
+    "question_type": "factual",
+    "difficulty": "medium",
+    "source_config": "recursive_t1024_o128"
+  },
+  {
+    "question_id": "q_d025ca3fd7b7",
+    "question": "How might the transition from LIBOR to SOFR affect the company's financing costs?",
+    "gold_chunk_ids": [
+      "commercial_realty_recursive_t1024_o128_28"
+    ],
+    "question_type": "factual",
+    "difficulty": "medium",
+    "source_config": "recursive_t1024_o128"
+  },
+  {
+    "question_id": "q_a0ffec82684f",
+    "question": "What challenges does competition pose for acquiring suitable investments?",
+    "gold_chunk_ids": [
+      "commercial_realty_recursive_t1024_o128_29"
+    ],
+    "question_type": "factual",
+    "difficulty": "medium",
+    "source_config": "recursive_t1024_o128"
+  },
+  {
+    "question_id": "q_10f128ca8864",
+    "question": "How might the structure of certain investments limit control over those assets?",
+    "gold_chunk_ids": [
+      "commercial_realty_recursive_t1024_o128_29"
+    ],
+    "question_type": "factual",
+    "difficulty": "medium",
+    "source_config": "recursive_t1024_o128"
+  },
+  {
+    "question_id": "q_a7cebd07548a",
+    "question": "What are some factors that could increase operating expenses related to commercial real estate loans?",
+    "gold_chunk_ids": [
+      "commercial_realty_recursive_t1024_o128_30"
+    ],
+    "question_type": "factual",
+    "difficulty": "medium",
+    "source_config": "recursive_t1024_o128"
+  },
+  {
+    "question_id": "q_8732f985b7fc",
+    "question": "What risk is associated with the foreclosure of a mortgage loan?",
+    "gold_chunk_ids": [
+      "commercial_realty_recursive_t1024_o128_30"
+    ],
+    "question_type": "factual",
+    "difficulty": "medium",
+    "source_config": "recursive_t1024_o128"
+  },
+  {
+    "question_id": "q_b7a620064c96",
+    "question": "How might an increase in the allowance for credit losses affect a company's financial condition?",
+    "gold_chunk_ids": [
+      "commercial_realty_recursive_t1024_o128_31"
+    ],
+    "question_type": "factual",
+    "difficulty": "medium",
+    "source_config": "recursive_t1024_o128"
+  },
+  {
+    "question_id": "q_b8c9e0d003d0",
+    "question": "What liabilities might arise from taking title to real estate through foreclosure?",
+    "gold_chunk_ids": [
+      "commercial_realty_recursive_t1024_o128_32"
+    ],
+    "question_type": "factual",
+    "difficulty": "medium",
+    "source_config": "recursive_t1024_o128"
+  },
+  {
+    "question_id": "q_569cd63de910",
+    "question": "What are some inherent risks associated with the ownership of real estate?",
+    "gold_chunk_ids": [
+      "commercial_realty_recursive_t1024_o128_32"
+    ],
+    "question_type": "factual",
+    "difficulty": "medium",
+    "source_config": "recursive_t1024_o128"
+  },
+  {
+    "question_id": "q_48fb4655caba",
+    "question": "What is the base management fee structure for our Manager?",
+    "gold_chunk_ids": [
+      "commercial_realty_recursive_t1024_o128_33"
+    ],
+    "question_type": "factual",
+    "difficulty": "easy",
+    "source_config": "recursive_t1024_o128"
+  },
+  {
+    "question_id": "q_c2699290f422",
+    "question": "How could the incentive compensation structure of our Manager affect investment risk?",
+    "gold_chunk_ids": [
+      "commercial_realty_recursive_t1024_o128_33"
+    ],
+    "question_type": "factual",
+    "difficulty": "medium",
+    "source_config": "recursive_t1024_o128"
+  },
+  {
+    "question_id": "q_1379f03bb7b5",
+    "question": "What conditions must be met to terminate the Management Agreement without cause?",
+    "gold_chunk_ids": [
+      "commercial_realty_recursive_t1024_o128_34"
+    ],
+    "question_type": "factual",
+    "difficulty": "medium",
+    "source_config": "recursive_t1024_o128"
+  },
+  {
+    "question_id": "q_592e8c31ab4d",
+    "question": "What could happen if the management fee is deemed not fair by the independent directors?",
+    "gold_chunk_ids": [
+      "commercial_realty_recursive_t1024_o128_34"
+    ],
+    "question_type": "factual",
+    "difficulty": "medium",
+    "source_config": "recursive_t1024_o128"
+  },
+  {
+    "question_id": "q_9a1b5c3bf7f3",
+    "question": "What limitations exist regarding our Manager's liability under the Management Agreement?",
+    "gold_chunk_ids": [
+      "commercial_realty_recursive_t1024_o128_35"
+    ],
+    "question_type": "factual",
+    "difficulty": "medium",
+    "source_config": "recursive_t1024_o128"
+  },
+  {
+    "question_id": "q_7a96cb4f50c9",
+    "question": "How does our Manager's indemnification affect our ability to take action against them?",
+    "gold_chunk_ids": [
+      "commercial_realty_recursive_t1024_o128_35"
+    ],
+    "question_type": "analytical",
+    "difficulty": "medium",
+    "source_config": "recursive_t1024_o128"
+  },
+  {
+    "question_id": "q_2c0ede19cac9",
+    "question": "What constitutes a \"control share acquisition\" under Maryland law?",
+    "gold_chunk_ids": [
+      "commercial_realty_recursive_t1024_o128_36"
+    ],
+    "question_type": "factual",
+    "difficulty": "medium",
+    "source_config": "recursive_t1024_o128"
+  },
+  {
+    "question_id": "q_43d16df3eb53",
+    "question": "What are the voting requirements for business combinations involving an interested stockholder after a five-year prohibition?",
+    "gold_chunk_ids": [
+      "commercial_realty_recursive_t1024_o128_36"
+    ],
+    "question_type": "factual",
+    "difficulty": "medium",
+    "source_config": "recursive_t1024_o128"
+  },
+  {
+    "question_id": "q_6a053799045e",
+    "question": "What indemnification obligations do we have towards our directors and officers?",
+    "gold_chunk_ids": [
+      "commercial_realty_recursive_t1024_o128_37"
+    ],
+    "question_type": "factual",
+    "difficulty": "medium",
+    "source_config": "recursive_t1024_o128"
+  },
+  {
+    "question_id": "q_ba7687efdde6",
+    "question": "How does our right to take action against our Manager compare to the obligations of our Manager?",
+    "gold_chunk_ids": [
+      "commercial_realty_recursive_t1024_o128_37"
+    ],
+    "question_type": "analytical",
+    "difficulty": "medium",
+    "source_config": "recursive_t1024_o128"
+  },
+  {
+    "question_id": "q_da44d63f0e55",
+    "question": "What are the requirements for maintaining the exclusion from registration as an investment company?",
+    "gold_chunk_ids": [
+      "commercial_realty_recursive_t1024_o128_38"
+    ],
+    "question_type": "factual",
+    "difficulty": "medium",
+    "source_config": "recursive_t1024_o128"
+  },
+  {
+    "question_id": "q_6ec8f888cb9f",
+    "question": "What could happen if ACRES RF's portfolio does not comply with the requirements of the exclusion?",
+    "gold_chunk_ids": [
+      "commercial_realty_recursive_t1024_o128_38"
+    ],
+    "question_type": "factual",
+    "difficulty": "medium",
+    "source_config": "recursive_t1024_o128"
+  },
+  {
+    "question_id": "q_38d0e99f60e6",
+    "question": "What are the asset composition requirements to qualify as a REIT?",
+    "gold_chunk_ids": [
+      "commercial_realty_recursive_t1024_o128_39"
+    ],
+    "question_type": "factual",
+    "difficulty": "medium",
+    "source_config": "recursive_t1024_o128"
+  },
+  {
+    "question_id": "q_dcbc6a9df37e",
+    "question": "How might compliance with REIT requirements impact our investment opportunities?",
+    "gold_chunk_ids": [
+      "commercial_realty_recursive_t1024_o128_39"
+    ],
+    "question_type": "factual",
+    "difficulty": "medium",
+    "source_config": "recursive_t1024_o128"
+  },
+  {
+    "question_id": "q_6e67a2617e98",
+    "question": "What is excess inclusion income?",
+    "gold_chunk_ids": [
+      "commercial_realty_recursive_t1024_o128_40"
+    ],
+    "question_type": "factual",
+    "difficulty": "easy",
+    "source_config": "recursive_t1024_o128"
+  },
+  {
+    "question_id": "q_f015bb51a028",
+    "question": "What happens if we fail to qualify as a REIT?",
+    "gold_chunk_ids": [
+      "commercial_realty_recursive_t1024_o128_40"
+    ],
+    "question_type": "factual",
+    "difficulty": "medium",
+    "source_config": "recursive_t1024_o128"
+  },
+  {
+    "question_id": "q_1d312fb02c3a",
+    "question": "How does the tax treatment differ for stockholders who are tax-exempt entities versus foreign persons regarding excess inclusion income?",
+    "gold_chunk_ids": [
+      "commercial_realty_recursive_t1024_o128_40"
+    ],
+    "question_type": "analytical",
+    "difficulty": "medium",
+    "source_config": "recursive_t1024_o128"
+  },
+  {
+    "question_id": "q_0b55ef782d59",
+    "question": "What percentage of REIT taxable income must be distributed to stockholders to qualify as a REIT?",
+    "gold_chunk_ids": [
+      "commercial_realty_recursive_t1024_o128_41"
+    ],
+    "question_type": "factual",
+    "difficulty": "medium",
+    "source_config": "recursive_t1024_o128"
+  },
+  {
+    "question_id": "q_9398ef113fde",
+    "question": "What is the consequence of failing to make required distributions as a REIT?",
+    "gold_chunk_ids": [
+      "commercial_realty_recursive_t1024_o128_41"
+    ],
+    "question_type": "factual",
+    "difficulty": "medium",
+    "source_config": "recursive_t1024_o128"
+  },
+  {
+    "question_id": "q_bdba6f9fb7c2",
+    "question": "What is the 4% nondeductible excise tax related to?",
+    "gold_chunk_ids": [
+      "commercial_realty_recursive_t1024_o128_41"
+    ],
+    "question_type": "factual",
+    "difficulty": "easy",
+    "source_config": "recursive_t1024_o128"
+  },
+  {
+    "question_id": "q_83e347626d80",
+    "question": "What is the maximum percentage of a REIT's assets that can consist of stock or securities of TRSs?",
+    "gold_chunk_ids": [
+      "commercial_realty_recursive_t1024_o128_42"
+    ],
+    "question_type": "factual",
+    "difficulty": "medium",
+    "source_config": "recursive_t1024_o128"
+  },
+  {
+    "question_id": "q_d1640eb7a356",
+    "question": "What happens if a REIT fails to comply with the limits on ownership of TRSs?",
+    "gold_chunk_ids": [
+      "commercial_realty_recursive_t1024_o128_42"
+    ],
+    "question_type": "factual",
+    "difficulty": "medium",
+    "source_config": "recursive_t1024_o128"
+  },
+  {
+    "question_id": "q_ce3ef4048304",
+    "question": "How does phantom income affect a REIT's cash flow?",
+    "gold_chunk_ids": [
+      "commercial_realty_recursive_t1024_o128_42"
+    ],
+    "question_type": "analytical",
+    "difficulty": "medium",
+    "source_config": "recursive_t1024_o128"
+  },
+  {
+    "question_id": "q_577c34b5c214",
+    "question": "What is the tax rate on a REIT’s net income from prohibited transactions?",
+    "gold_chunk_ids": [
+      "commercial_realty_recursive_t1024_o128_43"
+    ],
+    "question_type": "factual",
+    "difficulty": "medium",
+    "source_config": "recursive_t1024_o128"
+  },
+  {
+    "question_id": "q_351d3a012aa7",
+    "question": "How could legislative changes impact stockholders or the REIT itself?",
+    "gold_chunk_ids": [
+      "commercial_realty_recursive_t1024_o128_43"
+    ],
+    "question_type": "factual",
+    "difficulty": "medium",
+    "source_config": "recursive_t1024_o128"
+  },
+  {
+    "question_id": "q_56be789a717c",
+    "question": "What are the implications of the Tax Cuts and Jobs Act (TCJA) for REITs?",
+    "gold_chunk_ids": [
+      "commercial_realty_recursive_t1024_o128_43"
+    ],
+    "question_type": "factual",
+    "difficulty": "medium",
+    "source_config": "recursive_t1024_o128"
+  },
+  {
+    "question_id": "q_e5457fbbfe83",
+    "question": "What is the significance of Revenue Procedure 2011-16 for loan modifications?",
+    "gold_chunk_ids": [
+      "commercial_realty_recursive_t1024_o128_44"
+    ],
+    "question_type": "factual",
+    "difficulty": "medium",
+    "source_config": "recursive_t1024_o128"
+  },
+  {
+    "question_id": "q_0c60064a152e",
+    "question": "How does a significant modification of a loan affect its qualifying status for REIT income tests?",
+    "gold_chunk_ids": [
+      "commercial_realty_recursive_t1024_o128_44"
+    ],
+    "question_type": "analytical",
+    "difficulty": "medium",
+    "source_config": "recursive_t1024_o128"
+  },
+  {
+    "question_id": "q_64d5502897da",
+    "question": "What are the potential consequences of failing to meet the 75% gross income test?",
+    "gold_chunk_ids": [
+      "commercial_realty_recursive_t1024_o128_44"
+    ],
+    "question_type": "factual",
+    "difficulty": "medium",
+    "source_config": "recursive_t1024_o128"
+  },
+  {
+    "question_id": "q_8247d3cad359",
+    "question": "What is the IRS's position on the ownership of loan assets during a sale and repurchase agreement?",
+    "gold_chunk_ids": [
+      "commercial_realty_recursive_t1024_o128_45"
+    ],
+    "question_type": "factual",
+    "difficulty": "medium",
+    "source_config": "recursive_t1024_o128"
+  },
+  {
+    "question_id": "q_15cb9f02f499",
+    "question": "What criteria must a mezzanine loan meet to qualify as a real estate asset under IRS guidelines?",
+    "gold_chunk_ids": [
+      "commercial_realty_recursive_t1024_o128_45"
+    ],
+    "question_type": "factual",
+    "difficulty": "medium",
+    "source_config": "recursive_t1024_o128"
+  },
+  {
+    "question_id": "q_916685864fa0",
+    "question": "What risks are associated with acquiring mezzanine loans that do not meet safe harbor requirements?",
+    "gold_chunk_ids": [
+      "commercial_realty_recursive_t1024_o128_45"
+    ],
+    "question_type": "factual",
+    "difficulty": "medium",
+    "source_config": "recursive_t1024_o128"
+  },
+  {
+    "question_id": "q_1954196b07d3",
+    "question": "What is the principal office location of the organization?",
+    "gold_chunk_ids": [
+      "commercial_realty_recursive_t1024_o128_46"
+    ],
+    "question_type": "factual",
+    "difficulty": "easy",
+    "source_config": "recursive_t1024_o128"
+  },
+  {
+    "question_id": "q_0d3e3597dd37",
+    "question": "What is the significance of the economic impact of COVID-19 on the organization’s operations?",
+    "gold_chunk_ids": [
+      "commercial_realty_recursive_t1024_o128_46"
+    ],
+    "question_type": "factual",
+    "difficulty": "medium",
+    "source_config": "recursive_t1024_o128"
+  },
+  {
+    "question_id": "q_40ea7fb03061",
+    "question": "What does the term \"unresolved staff comments\" refer to in this context?",
+    "gold_chunk_ids": [
+      "commercial_realty_recursive_t1024_o128_46"
+    ],
+    "question_type": "factual",
+    "difficulty": "medium",
+    "source_config": "recursive_t1024_o128"
+  },
+  {
+    "question_id": "q_7b6965dc6eae",
+    "question": "What was the effect of the one-for-three reverse stock split on the number of shares outstanding?",
+    "gold_chunk_ids": [
+      "commercial_realty_recursive_t1024_o128_47"
+    ],
+    "question_type": "factual",
+    "difficulty": "medium",
+    "source_config": "recursive_t1024_o128"
+  },
+  {
+    "question_id": "q_fff535ee35d5",
+    "question": "What changes were made to the total number of authorized shares in May 2021?",
+    "gold_chunk_ids": [
+      "commercial_realty_recursive_t1024_o128_47"
+    ],
+    "question_type": "factual",
+    "difficulty": "medium",
+    "source_config": "recursive_t1024_o128"
+  },
+  {
+    "question_id": "q_b20228fc256d",
+    "question": "What is the par value of the common stock after the reverse stock split?",
+    "gold_chunk_ids": [
+      "commercial_realty_recursive_t1024_o128_47"
+    ],
+    "question_type": "factual",
+    "difficulty": "medium",
+    "source_config": "recursive_t1024_o128"
+  },
+  {
+    "question_id": "q_be15c0f6ed57",
+    "question": "What was the total number of shares purchased under the share repurchase program during the year ended December 31, 2022?",
+    "gold_chunk_ids": [
+      "commercial_realty_recursive_t1024_o128_48"
+    ],
+    "question_type": "factual",
+    "difficulty": "medium",
+    "source_config": "recursive_t1024_o128"
+  },
+  {
+    "question_id": "q_91b730db9f09",
+    "question": "What is the average price paid per share for common stock repurchases in 2022?",
+    "gold_chunk_ids": [
+      "commercial_realty_recursive_t1024_o128_48"
+    ],
+    "question_type": "factual",
+    "difficulty": "medium",
+    "source_config": "recursive_t1024_o128"
+  },
+  {
+    "question_id": "q_0afde55b55e6",
+    "question": "How much remains available under the share repurchase program as of December 31, 2022?",
+    "gold_chunk_ids": [
+      "commercial_realty_recursive_t1024_o128_48"
+    ],
+    "question_type": "factual",
+    "difficulty": "medium",
+    "source_config": "recursive_t1024_o128"
+  },
+  {
+    "question_id": "q_542b2db466fb",
+    "question": "What is the purpose of the performance graph mentioned in the document?",
+    "gold_chunk_ids": [
+      "commercial_realty_recursive_t1024_o128_49"
+    ],
+    "question_type": "factual",
+    "difficulty": "medium",
+    "source_config": "recursive_t1024_o128"
+  },
+  {
+    "question_id": "q_d40fb82a373a",
+    "question": "What time period does the performance graph cover for comparing cumulative total shareholder returns?",
+    "gold_chunk_ids": [
+      "commercial_realty_recursive_t1024_o128_49"
+    ],
+    "question_type": "factual",
+    "difficulty": "medium",
+    "source_config": "recursive_t1024_o128"
+  },
+  {
+    "question_id": "q_c23d4e21d33d",
+    "question": "What is the significance of reinvesting dividends in the context of the performance graph?",
+    "gold_chunk_ids": [
+      "commercial_realty_recursive_t1024_o128_49"
+    ],
+    "question_type": "factual",
+    "difficulty": "medium",
+    "source_config": "recursive_t1024_o128"
+  }
+]
