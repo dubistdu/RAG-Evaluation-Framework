@@ -1,1 +1,5 @@
-# Retrieval module - to be implemented
+"""Retrieval: reranking with cross-encoder."""
+
+from .reranker import Reranker
+
+__all__ = ["Reranker"]

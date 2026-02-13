@@ -18,6 +18,7 @@ if str(_PROJECT_ROOT) not in sys.path:
 
 from rag.embeddings import OpenAIEmbeddingClient
 from rag.evaluation.metrics import compute_metrics
+from rag.retrieval import Reranker
 from rag.vectorstore import VectorStore
 
 logging.basicConfig(
@@ -78,6 +79,29 @@ def main() -> int:
         default=None,
         help="Optional: cap number of questions (for quick runs)",
     )
+    parser.add_argument(
+        "--rerank",
+        action="store_true",
+        help="Retrieve more, then rerank with cross-encoder; use --retrieve-k and --rerank-top-k",
+    )
+    parser.add_argument(
+        "--retrieve-k",
+        type=int,
+        default=30,
+        help="When --rerank: number of candidates to retrieve before reranking (default: 30)",
+    )
+    parser.add_argument(
+        "--rerank-top-k",
+        type=int,
+        default=10,
+        help="When --rerank: number of chunks to keep after reranking (default: 10); should be >= max --k",
+    )
+    parser.add_argument(
+        "--reranker-model",
+        type=str,
+        default="cross-encoder/ms-marco-MiniLM-L-6-v2",
+        help="Cross-encoder model for reranking (default: ms-marco-MiniLM-L-6-v2)",
+    )
     args = parser.parse_args()
 
     qa_path = args.qa_dir / f"{args.config}_qa.json"
@@ -104,6 +128,13 @@ def main() -> int:
     store = VectorStore.load(store_path)
     embed_client = OpenAIEmbeddingClient(model=args.embedding_model, api_key=api_key)
 
+    reranker = None
+    if args.rerank:
+        logger.info("Reranking enabled: retrieve-k=%s, rerank-top-k=%s", args.retrieve_k, args.rerank_top_k)
+        reranker = Reranker(model_name=args.reranker_model)
+
+    k_retrieve = args.retrieve_k if args.rerank else max(args.k)
+
     results = []
     batch_size = 100
     for i in range(0, len(qa_entries), batch_size):
@@ -112,13 +143,23 @@ def main() -> int:
         query_vectors = embed_client.embed(questions)
         for e, qvec in zip(batch, query_vectors):
             gold = e.get("gold_chunk_ids") or []
-            retrieved = [cid for cid, _text, _score in store.query(qvec, k=max(args.k))]
+            raw = store.query(qvec, k=k_retrieve)
+            if reranker is not None:
+                candidates = [(cid, text) for cid, text, _score in raw]
+                retrieved = reranker.rerank(e["question"], candidates, top_k=args.rerank_top_k)
+            else:
+                retrieved = [cid for cid, _text, _score in raw]
             results.append((gold, retrieved))
         logger.info("Processed questions %s-%s", i + 1, min(i + batch_size, len(qa_entries)))
 
     metrics = compute_metrics(results, k_values=args.k)
     metrics["config"] = args.config
     metrics["embedding_model"] = args.embedding_model
+    if args.rerank:
+        metrics["rerank"] = True
+        metrics["retrieve_k"] = args.retrieve_k
+        metrics["rerank_top_k"] = args.rerank_top_k
+        metrics["reranker_model"] = args.reranker_model
 
     print("\n--- Retrieval evaluation ---")
     print(
@@ -126,6 +167,8 @@ def main() -> int:
         f"Embedding: {args.embedding_model}  |  "
         f"N = {metrics['n_questions']}"
     )
+    if args.rerank:
+        print(f"Rerank: retrieve_k={args.retrieve_k}, rerank_top_k={args.rerank_top_k}")
     for k in args.k:
         recall_key = f"recall@{k}"
         prec_key = f"precision@{k}"

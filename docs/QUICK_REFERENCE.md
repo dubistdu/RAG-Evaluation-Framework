@@ -75,6 +75,18 @@ Optional: `--max-questions 100` for a quick run. `--k 1 5 10 20` to change K val
 
 ---
 
+## 4b. Retrieval evaluation with reranking
+
+Retrieve 30 candidates, rerank with a cross-encoder, keep top-10, then compute metrics. Requires `pip install sentence-transformers`.
+
+```bash
+python scripts/run_retrieval_evaluation.py --config recursive_t1024_o128 --rerank --retrieve-k 30 --rerank-top-k 10 --output data/eval/recursive_t1024_o128_metrics_rerank.json
+```
+
+Optional: `--reranker-model cross-encoder/ms-marco-MiniLM-L-6-v2` (default). Compare output to the same config without `--rerank` to measure improvement.
+
+---
+
 ## 5. Sanity check (self-retrieval)
 
 Use the **same** `--config` and `--embedding-model` as in your eval.

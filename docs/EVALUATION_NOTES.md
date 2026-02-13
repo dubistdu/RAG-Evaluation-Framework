@@ -77,9 +77,21 @@ For **recursive_t1024_o128**:
 
 ---
 
+## Reranking (optional second stage)
+
+Retrieve more candidates (e.g. 30), then rerank with a cross-encoder and take the new top-10. Metrics are computed on the reranked list. Requires `pip install sentence-transformers`.
+
+```bash
+python scripts/run_retrieval_evaluation.py --config recursive_t1024_o128 --rerank --retrieve-k 30 --rerank-top-k 10 --output data/eval/recursive_t1024_o128_metrics_rerank.json
+```
+
+Compare the output metrics to the same config without `--rerank` to see the gain.
+
+---
+
 ## Next steps
 
-- **Reranking:** Retrieve top-30, rerank (e.g. cross-encoder), take new top-10, then run the same eval. Can improve Recall@1 and MRR without changing chunking or embedding model.
+- **Reranking:** Implemented; use `--rerank` as above. Compare metrics with and without.
 - **Real questions:** Add 20–50 real user questions with gold chunks and run eval to see if gains hold in practice.
 - **More docs:** Run full pipeline on additional PDFs to see if recursive_t1024_o128 stays best.
 

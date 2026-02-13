@@ -1,0 +1,16 @@
+{
+  "n_questions": 119,
+  "recall@1": 0.6050420168067226,
+  "precision@1": 0.6050420168067226,
+  "recall@5": 0.8151260504201681,
+  "precision@5": 0.1630252100840333,
+  "recall@10": 0.8487394957983193,
+  "precision@10": 0.08487394957983177,
+  "mrr": 0.6944077631052421,
+  "config": "recursive_t1024_o128",
+  "embedding_model": "text-embedding-3-small",
+  "rerank": true,
+  "retrieve_k": 30,
+  "rerank_top_k": 10,
+  "reranker_model": "cross-encoder/ms-marco-MiniLM-L-6-v2"
+}
