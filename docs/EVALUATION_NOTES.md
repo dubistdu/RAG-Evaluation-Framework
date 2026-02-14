@@ -1,6 +1,6 @@
 # Evaluation notes
 
-Summary of the RAG evaluation pipeline, experiments run, and results.
+Runbook for the RAG evaluation pipeline: steps, commands, and references. **For comparison of all scores and metric definitions, see the [README](../README.md#evaluation-results-comparison-of-all-scores).**
 
 ---
 
@@ -27,46 +27,7 @@ Summary of the RAG evaluation pipeline, experiments run, and results.
 - Sanity check:  
   `python scripts/sanity_check_self_retrieval.py --config recursive_t1024_o128 --embedding-model text-embedding-3-small`
 
----
-
-## Which config won
-
-**Best:** **recursive_t1024_o128** (1024 tokens, 128 overlap) with **text-embedding-3-small**.
-
-| Config              | Recall@1 | Recall@5 | Recall@10 | MRR   | N     |
-|---------------------|----------|----------|-----------|-------|-------|
-| recursive_t256_o50   | 0.26     | 0.57     | 0.73      | 0.38  | 130   |
-| recursive_t512_o100  | 0.28     | 0.59     | 0.70      | 0.41  | 120   |
-| **recursive_t1024_o128** | **0.31** | **0.61** | **0.77**  | **0.44** | 119 |
-
-Higher is better for all metrics.
-
----
-
-## Overlap experiments (1024 tokens)
-
-Same chunk size (1024), different overlap:
-
-| Config           | Recall@1 | Recall@5 | Recall@10 | MRR   |
-|------------------|----------|----------|-----------|-------|
-| t1024_o64        | 0.26     | 0.62     | 0.71      | 0.40  |
-| **t1024_o128**   | **0.31** | **0.61** | **0.77**  | **0.44** |
-| t1024_o256       | 0.20     | 0.52     | 0.71      | 0.34  |
-
-**Conclusion:** 128 overlap is the sweet spot for this doc; less (64) or more (256) overlap hurt retrieval.
-
----
-
-## Embedding model: small vs large
-
-For **recursive_t1024_o128**:
-
-| Model                    | Recall@1 | Recall@5 | Recall@10 | MRR   |
-|--------------------------|----------|----------|-----------|-------|
-| text-embedding-3-small   | **0.31** | **0.61** | **0.77**  | **0.44** |
-| text-embedding-3-large   | 0.22     | 0.58     | 0.74      | 0.37  |
-
-**Conclusion:** Small was better (and cheaper) for this corpus; no need to switch to large.
+**Results summary:** Best config is **recursive_t1024_o128** with **text-embedding-3-small**. Overlap 128 beat 64 and 256. Reranking improves Recall@1 and MRR. Full tables → README.
 
 ---
 

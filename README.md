@@ -4,6 +4,20 @@ Experimental retrieval optimization framework: parse PDFs, chunk, embed, build v
 
 ---
 
+## RAG evaluation metrics (output)
+
+Retrieval evaluation produces the following metrics (written to JSON and printed by `run_retrieval_evaluation.py`):
+
+| Metric | Meaning |
+|--------|---------|
+| **Recall@K** | Fraction of questions where at least one gold chunk appears in the top-K retrieved. |
+| **Precision@K** | Among the top-K retrieved chunks, fraction that are gold (averaged over questions). |
+| **MRR** | Mean reciprocal rank: average of 1/(rank of first gold chunk), or 0 if none in top-K. |
+
+All are in [0, 1]; higher is better. N = number of questions evaluated.
+
+---
+
 ## Evaluation results (comparison of all scores)
 
 All runs use the same corpus and synthetic QA; embedding model is OpenAI unless noted. **Higher is better.**
