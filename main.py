@@ -48,7 +48,7 @@ def main():
     print("Usage:")
     print("  python main.py --parse-pdf path/to/lecture.pdf")
     print("  python main.py --chunk data/parsed_docs [--chunk-size 512 1024] [--overlap 64 128]")
-    print("Or use scripts/run_parse_one_pdf.py and scripts/run_chunk.py")
+    print("Or use scripts/run_parse_one_pdf.py and scripts/run_chunking.py (see docs/QUICK_REFERENCE.md)")
     return 0
 
 

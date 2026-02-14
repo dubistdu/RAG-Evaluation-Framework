@@ -56,41 +56,72 @@ Reranking significantly improves Recall@1 and MRR.
 
 ---
 
-See **`docs/EVALUATION_NOTES.md`** and **`docs/QUICK_REFERENCE.md`** for pipeline steps and commands.
+See **`docs/EVALUATION_NOTES.md`** for the pipeline runbook and **`docs/QUICK_REFERENCE.md`** for copy-paste commands.
+
+---
 
 ## Setup
 
 ```bash
 cd RAG-Evaluation-Framework
+python -m venv .venv
+source .venv/bin/activate   # or: .venv\Scripts\activate on Windows
 pip install -r requirements.txt
 ```
+
+Set `OPENAI_API_KEY` for parsing (if needed), synthetic QA, embeddings, and retrieval eval. For reranking, `pip install sentence-transformers` (optional).
+
+---
+
+## Pipeline overview
+
+| Step | Script | Output |
+|------|--------|--------|
+| 1. Parse PDF | `scripts/run_parse_one_pdf.py` | `data/parsed_docs/<stem>.json` |
+| 2. Chunk | `scripts/run_chunking.py` + `configs/chunking_configs.yaml` | `data/chunks/<config>/<doc>.json` |
+| 3. Synthetic QA | `scripts/generate_synthetic_qa.py` | `data/synthetic_qa/<config>_qa.json` |
+| 4. Build vectorstore | `scripts/build_vectorstore.py` | `data/vectorstores/<config>_<embedding_model>/` |
+| 5. Retrieval eval | `scripts/run_retrieval_evaluation.py` | metrics (stdout + optional JSON) |
+| (optional) Sanity check | `scripts/sanity_check_self_retrieval.py` | self-retrieval pass/fail |
+
+Full commands and options → **`docs/QUICK_REFERENCE.md`**.
+
+---
 
 ## Project structure
 
 ```
 RAG-Evaluation-Framework/
 ├── data/
-│   ├── raw_pdfs/       # Place PDFs here
-│   ├── parsed_docs/    # JSON output from parser
-│   ├── chunks/
-│   └── synthetic_qa/
+│   ├── raw_pdfs/          # Input PDFs
+│   ├── parsed_docs/       # Parser output (JSON)
+│   ├── chunks/            # Per-config chunk JSON
+│   ├── synthetic_qa/      # Questions + gold_chunk_ids
+│   ├── vectorstores/      # FAISS index + metadata per config
+│   └── eval/             # Metrics JSON (optional)
 ├── rag/
-│   ├── parsing/        # PDF → structured elements (Title, Paragraph, List, etc.)
-│   ├── chunking/       # (future)
-│   ├── embeddings/     # (future)
-│   ├── vectorstore/    # (future)
-│   ├── retrieval/     # (future)
-│   ├── evaluation/     # (future)
-│   └── generation/    # (future)
+│   ├── parsing/           # PDF → structured elements (Unstructured)
+│   ├── chunking/          # Boundary-aware recursive chunker (tiktoken)
+│   ├── embeddings/       # OpenAI embedder + validation
+│   ├── vectorstore/       # FAISS-backed store (save/load/query)
+│   ├── retrieval/         # Cross-encoder reranker
+│   ├── evaluation/       # Recall@K, Precision@K, MRR
+│   ├── generation/       # Synthetic QA (LLM)
+│   └── utils/            # Context constraints, model specs
 ├── configs/
-├── notebooks/
-├── scripts/
-└── main.py
+│   └── chunking_configs.yaml   # Chunk size/overlap configs
+├── docs/
+│   ├── EVALUATION_NOTES.md
+│   └── QUICK_REFERENCE.md
+├── scripts/               # Entry points (run_parse_one_pdf, run_chunking, etc.)
+└── requirements.txt
 ```
 
-## Step 1: Parse one PDF
+---
 
-From the `RAG-Evaluation-Framework` directory:
+## Parse one PDF
+
+From the project root:
 
 ```bash
 # Using the script (recommended)

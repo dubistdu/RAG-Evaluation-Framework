@@ -1,4 +1,7 @@
 """
+Legacy: character-based chunking. Prefer scripts/run_chunking.py with
+configs/chunking_configs.yaml for token-based boundary-aware chunking.
+
 Chunk parsed documents with one or more (chunk_size, overlap) configurations.
 Usage (from project root):
   python scripts/run_chunk.py data/parsed_docs/commercial_realty.json
