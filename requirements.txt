@@ -14,5 +14,8 @@ faiss-cpu>=1.7.0
 # Step 5: Synthetic QA generation (LLM + optional embeddings)
 openai>=1.0.0
 
+# Optional: reranking (run_retrieval_evaluation.py --rerank)
+sentence-transformers>=2.2.0
+
 # Tests
 pytest>=7.0.0
