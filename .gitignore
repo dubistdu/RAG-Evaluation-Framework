@@ -1,0 +1,27 @@
+# Bytecode
+__pycache__/
+*.pyc
+*.pyo
+
+# Virtual env
+.venv/
+venv/
+env/
+
+# Env / secrets
+.env
+.env.local
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Test / build
+.pytest_cache/
+.coverage
+htmlcov/
+*.egg-info/
+dist/
+build/

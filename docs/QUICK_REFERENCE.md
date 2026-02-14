@@ -1,6 +1,7 @@
 # Quick reference — copy-paste commands
 
-Run from **project root** with venv active and `OPENAI_API_KEY` set unless noted.
+Run from **project root** with venv active and `OPENAI_API_KEY` set unless noted.  
+Vectorstore uses **FAISS**; ensure `pip install faiss-cpu` (or see `requirements.txt`).
 
 ---
 

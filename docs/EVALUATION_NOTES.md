@@ -97,6 +97,12 @@ Compare the output metrics to the same config without `--rerank` to see the gain
 
 ---
 
+## Vector store (FAISS)
+
+The vectorstore uses **FAISS** (`IndexFlatIP` with L2-normalized vectors for cosine similarity). Persisted as `index.faiss` + `metadata.json` per config. Install with: `pip install faiss-cpu`. Legacy directories containing only `vectors.npy` + `metadata.json` are still loaded (FAISS index is built in memory).
+
+---
+
 ## Paths reference
 
 | Artifact    | Path |

@@ -9,6 +9,7 @@ pyyaml>=6.0.0
 
 # Step 4: Embeddings + vectorstore
 numpy>=1.24.0
+faiss-cpu>=1.7.0
 
 # Step 5: Synthetic QA generation (LLM + optional embeddings)
 openai>=1.0.0
